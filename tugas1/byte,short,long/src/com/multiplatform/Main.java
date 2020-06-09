@@ -32,6 +32,13 @@ public class Main {
         System.out.println("Long Maximum Value = " + myMaxLongvalue);
         System.out.println("Long Minimum Value = " + myMinLongValue);
 
+        //(9-06-2020)
+        long myBigLongValue = 2_147_483_647L;
+        //type casting
+        int myNewIntValue = (myMinIntValue / 2);
+        byte myNewByteValue = (byte)(myMinIntValue / 2);
+        short myNewShortValue = (short)(myMinIntValue / 2);
+
 
     }
 }
