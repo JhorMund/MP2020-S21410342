@@ -12,14 +12,8 @@ public class Car {
     //setter
     public void setModel(String model){
         String validModel = model.toLowerCase();
-        if(validModel.equals("Agya") || validModel.equals("xenia")){
-            this.model = model;
-        }
-        else {
-            this.model = "Unknown";
-        }
-        ;
-
+        if(validModel.equals("agya")||validModel.equals("xenia")) this.model = model;
+        else this.model = "Unknown";
     }
 
     public String getModel(){
